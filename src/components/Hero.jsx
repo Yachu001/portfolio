@@ -13,19 +13,19 @@ function Hero() {
     id='home'
     className='min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a]'>
 
-        <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between ">
+        <div className="container mx-auto px-6 pt-20 md:pt-0 flex flex-col md:flex-row items-center justify-between ">
             {/*left side content */}
             <div className=" md:w-1/2 mb-25 md:mb-0 ">
-                <h1 className='text-5xl md:text-6xl font-bold mb-4'>
+                <h1 className='text-4xl md:text-5xl md:text-6xl font-bold mb-4'>
                     Hi, I'm <span className='text-purple'>Yahya TP</span>
                 </h1>
-                <h2 className='text-3xl md:text-4xl font-bold mb-6 typewriter'>
+                <h2 className='text-2xl md:text-4xl font-bold mb-6 typewriter'>
                     Full Stack Developer
                 </h2>
                 <p className='text-2xl text-gray-300 mb-8'>
                     I create stunning web expieriences with modern technologies and innovative design 
                 </p>
-                <div className="flex space-x-4 text-xl">
+                <div className="flex space-x-4 text-lg md:text-xl">
                     <a href="#projects" className='px-6 py-3  bg-purple rounded-lg font-medium  hover:bg-purple-700 transition duration-300'>View Work</a>
                     <a href="#contact" className=' px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple transition duration-300'>Contact Me</a>
                 </div>

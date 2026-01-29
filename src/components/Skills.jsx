@@ -13,7 +13,7 @@ function Skills() {
     id="skills"
     className='py-20 bg-dark-100'>
         <div className="container mx-auto px-6">
-            <h2 className='text-5xl font-bold text-center mb-4'>My <span className='text-purple'>Skills</span></h2>
+            <h2 className='text-4xl md:text-5xl font-bold text-center mb-4'>My <span className='text-purple'>Skills</span></h2>
             <p className='text-gray-400 text-center text-xl md:text-3xl max-w-2xl mx-auto mb-20'>
                 Technologies I work with to bring ideas to life
             </p>
@@ -25,12 +25,12 @@ function Skills() {
                         className="bg-dark-300 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 cursor-pointer">
                             <div className="flex items-center mb-4">
                                 <skills.icon className='w-12 h-12 text-purple mr-6' />
-                                <h3 className='text-4xl font-semibold'>{skills.title}</h3>
+                                <h3 className='text-2xl md:text-4xl font-semibold'>{skills.title}</h3>
                             </div>
-                            <p className='text-2xl text-gray-400 mb-6'>{skills.description}</p>
+                            <p className='text-xl md:text-2xl text-gray-400 mb-6'>{skills.description}</p>
                             <div className="flex flex-wrap gap-5">
                                 {skills.tags.map((tech)=>(
-                                    <span className=' text-2xl px-3 py-1 bg-dark-400 rounded-full' key={tech}>{tech}</span>
+                                    <span className=' text-xl md:text-2xl px-3 py-1 bg-dark-400 rounded-full' key={tech}>{tech}</span>
                                 ))}
                             </div>
                         </div>

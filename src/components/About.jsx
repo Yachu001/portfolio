@@ -19,9 +19,9 @@ function About() {
             <p className='text-gray-400 text-xl md:text-3xl text-center max-w-2xl mx-auto mb-16'>Get to know more about my background and passion</p>
 
             {/* Imge and content section */}
-            <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="flex flex-col lg:flex-row items-center gap-12">
                 {/* image */}
-                <div className="md:w-1/2 rounded-2xl overflow-hidden">
+                <div className="lg:w-1/2 rounded-2xl overflow-hidden">
                     <motion.img 
                         initial={{ opacity:0, y:50}}
                         whileInView={{ opacity:1, y:0}}
@@ -31,7 +31,7 @@ function About() {
                     src={profile} alt="" />
                 </div>
                 {/* content */}
-                <motion.div className="md:w-1/2"
+                <motion.div className="lg:w-1/2"
                 initial={{ opacity:0, y:50}}
                 whileInView={{ opacity:1, y:0}}
                 transition={{ duration:0.9, ease:'easeOut'}}

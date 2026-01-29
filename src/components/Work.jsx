@@ -12,9 +12,9 @@ function Work() {
         id='experience'
         className='py-20 bg-dark-100' >
             <div className="container mx-auto px-6">
-                <h2 className='text-5xl font-bold text-center mb-4'>Work 
+                <h2 className='text-4xl md:text-5xl font-bold text-center mb-4'>Work 
                     <span className='text-purple'> Experience</span></h2>
-                <p className='text-gray-400 text-3xl text-center max-w-3xl mx-auto mb-16'>
+                <p className='text-gray-400 text-xl md:text-3xl text-center max-w-3xl mx-auto mb-16'>
                     My professional journey so far
                 </p>
                 <div className="max-w-4xl mx-auto">
@@ -30,11 +30,11 @@ function Work() {
                                     {/* box */}
                                     <div className="bg-dark-300 rounded-2xl  p-6 ">
                                         <div className="flex   justify-between items-start mb-2">
-                                            <h3 className='font-semibold text-xl md:text-2xl overflow-hidden'>{data.role} </h3>
+                                            <h3 className='font-semibold text-lg md:text-2xl overflow-hidden'>{data.role} </h3>
                                             <span className='px-3 py-1 bg-purple/20 text-purple rounded-full text-xs md:text-xl overflow-hidden'>{data.duration}</span>
                                         </div>
-                                        <p className='text-gray-400 text-xl mb-2'>{data.company}</p>
-                                        <p className='text-gray-300 text-xl'>{data.description}</p>
+                                        <p className='text-gray-400 text-lg md:text-xl mb-2'>{data.company}</p>
+                                        <p className='text-gray-300 text-lg md:text-xl'>{data.description}</p>
                                     </div>
                                 </div>
                             ))
