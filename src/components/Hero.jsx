@@ -1,6 +1,6 @@
 import React from 'react'
 import { easeOut, motion } from 'framer-motion';
-import profile from '../assets/profile.avif'
+import profile from '../assets/yahyaprofile.png'
 
 
 function Hero() {
@@ -16,16 +16,16 @@ function Hero() {
         <div className="container mx-auto px-6 pt-20 md:pt-0 flex flex-col md:flex-row items-center justify-between ">
             {/*left side content */}
             <div className=" md:w-1/2 mb-25 md:mb-0 ">
-                <h1 className='text-4xl md:text-5xl md:text-6xl font-bold mb-4'>
+                <h1 className='text-5xl md:text-6xl font-bold mb-4'>
                     Hi, I'm <span className='text-purple'>Yahya TP</span>
                 </h1>
-                <h2 className='text-2xl md:text-4xl font-bold mb-6 typewriter'>
+                <h2 className='text-3xl md:text-4xl font-bold mb-6 typewriter'>
                     Full Stack Developer
                 </h2>
-                <p className='text-2xl text-gray-300 mb-8'>
+                <p className='text-2xl xl:text-3xl text-gray-300 mb-8'>
                     I create stunning web expieriences with modern technologies and innovative design 
                 </p>
-                <div className="flex space-x-4 text-lg md:text-xl">
+                <div className="flex space-x-4 text-lg md:text-2xl">
                     <a href="#projects" className='px-6 py-3  bg-purple rounded-lg font-medium  hover:bg-purple-700 transition duration-300'>View Work</a>
                     <a href="#contact" className=' px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple transition duration-300'>Contact Me</a>
                 </div>
@@ -43,7 +43,7 @@ function Hero() {
                             repeatType: "loop",
                             ease: "easeInOut"
                         }}
-                        className='relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float '
+                        className='relative rounded-full w-64 h-64 md:w-80 md:h-80 object-top object-cover z-10 animate-float '
                         src={profile} alt='profile' />
                     </div>
                 </div>

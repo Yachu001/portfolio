@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import profile from '../assets/profile.avif'
+import profile from '../assets/yahyaprofile.png'
 import { aboutInfo } from '../assets/assets'
 
 function About() {
@@ -21,13 +21,13 @@ function About() {
             {/* Imge and content section */}
             <div className="flex flex-col lg:flex-row items-center gap-12">
                 {/* image */}
-                <div className="lg:w-1/2 rounded-2xl overflow-hidden">
+                <div className="lg:w-1/2 h-[95vh] rounded-2xl overflow-hidden">
                     <motion.img 
                         initial={{ opacity:0, y:50}}
                         whileInView={{ opacity:1, y:0}}
                         transition={{ duration:0.9, ease:'easeOut'}}
                         viewport={{ once:false, amount:0.2}} 
-                        className='w-full h-full object-cover'
+                        className='w-full h-full object-top object-cover'
                     src={profile} alt="" />
                 </div>
                 {/* content */}

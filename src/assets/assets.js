@@ -138,27 +138,20 @@ export const projects = [
 
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
-    description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
-    color: "purple"
-  },
-  {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
-    description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
-    color: "pink"
-  },
-  {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
-    description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-    color: "blue"
-  }
+  role: "Associate Web Developer",
+  company: "Cybexel Technologies",
+  duration: "2025 - Present",
+  description:
+    "Worked on frontend development using React and modern UI practices. Integrated REST APIs, built responsive components, and collaborated with backend teams to deliver scalable web applications.",
+  color: "purple"
+},
+{
+  role: "Python Full Stack Intern",
+  company: "Inmakes Learning Hub",
+  duration: "2024 - 2025",
+  description:
+    "Developed full stack web applications using Python, Django, and REST APIs. Built responsive frontend interfaces, implemented authentication, CRUD operations, and worked with databases in real-time projects.",
+  color: "pink"
+}
+  
 ];
